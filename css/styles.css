@@ -51,7 +51,7 @@ letter-spacing: 0.03em;
 color: var(--title-color) ;  
 }
 .contact-link {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.1;
@@ -191,7 +191,7 @@ color: rgba(255, 255, 255, 0.6);
   }
   /*------------- Main Portfolio----------------------- */
   .hero-button {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
@@ -206,7 +206,7 @@ color: rgba(255, 255, 255, 0.6);
     color: #f5f4fa;
   }
 .project-title {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
 
 font-weight: 700;
 font-size: 18px;
@@ -215,7 +215,7 @@ letter-spacing: 0.06em;
 color: var(--title-color);
 }
 .project-text {
-  font-family: 'Roboto';
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 16px;

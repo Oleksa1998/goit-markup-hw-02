@@ -4,26 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
+    <title>Portfolio</title>
 </head>
 <body>
     <!-- Header -->
-    <header class="portfolio">
-      <nav class="portfolio-navigation">
-        <a href="./index.html"class="portfolio-logo link">Web<span class="portfolio-logo-part">Studio</span></a>
-       <ul class="portfolio-list list">
-         <li class="portfolio-item"><a href="./index.html" class="portfolio-link link" >Студия</a></li>
-         <li class="portfolio-item"><a href="./portfolio.html" class="portfolio-link link curent" >Портфолио</a></li>
-         <li class="portfolio-item"><a href="./contacts" class="portfolio-link link" >Контакты</a></li>
+    <header class="header">
+      <nav class="header-navigation">
+        <a href="./index.html"class="header-logo link">Web<span class="header-logo-part">Studio</span></a>
+       <ul class="header-list list">
+         <li class="header-item"><a href="./index.html" class="header-link link " >Студия</a></li>
+         <li class="header-item"><a href="./portfolio.html" class="header-link link curent" >Портфолио</a></li>
+         <li class="header-item"><a href="./contacts" class="header-link link" >Контакты</a></li>
        </ul>
       </nav>
-        <ul class="portfolio-contact list">
+        <ul class="contact-link list">
           <li>
-            <a href="mailto:info@devstudio.com" class="email link">info@devstudio.com</a>
+            <a href="mailto:info@devstudio.com" class="contact-link link">info@devstudio.com</a>
           </li>
           <li>
-            <a href="tel:+380961111111" class="telno link">+38 096 111 11 11</a>
+            <a href="tel:+380961111111" class="contact-link link">+38 096 111 11 11</a>
           </li>
         </ul>
     </header>
@@ -32,55 +35,55 @@
 <section>
     <!-- <h1>Заголовок</h1> -->
     <ul class="btn list">
-    <li><button type="button" class="">Все</button></li>
-    <li><button type="button" class="">Веб-сайты</button></li>
-    <li><button type="button" class="">Приложения</button></li>
-    <li><button type="button" class="">Дизайн</button></li>
-    <li><button type="button" class="">Маркетинг</button></li>
+    <li><button type="button" class="hero-button crnt">Все</button></li>
+    <li><button type="button" class="hero-button">Веб-сайты</button></li>
+    <li><button type="button" class="hero-button">Приложения</button></li>
+    <li><button type="button" class="hero-button">Дизайн</button></li>
+    <li><button type="button" class="hero-button">Маркетинг</button></li>
 </ul>
 <ul class="portfolio list">
     <li>
-        <img src="images/projects/project1.jpg" alt="project1" width="370" height="294">
-        <h3>Технокряк</h3>
-        <p>Веб-сайт</p>
+       <a href=""><img src="images/projects/project1.jpg" alt="project1" width="370" height="294"></a>
+        <h3 class="project-title">Технокряк</h3>
+        <p class="project-">Веб-сайт</p>
     </li>
     <li>
-        <img src="images/projects/project2.jpg" alt="project1" width="370" height="294">
-        <h3>Постер New Orlean vs Golden Star</h3>
-        <p>Дизайн</p>
+        <a href=""><img src="images/projects/project2.jpg" alt="project1" width="370" height="294"></a>
+        <h3 class="project-title" lang="en">Постер New Orlean vs Golden Star</h3>
+         <p class="project-text">Дизайн</p>
     </li>
     <li>
-        <img src="images/projects/project3.jpg" alt="project3" width="370" height="294">
-        <h3>Ресторан Seafood</h3>
-        <p>Приложение</p>
+        <a href=""><img src="images/projects/project3.jpg" alt="project3" width="370" height="294"></a>
+        <h3 class="project-title"lang="en">Ресторан Seafood</h3>
+        <p class="project-text">Приложение</p>
     </li>
     <li>
-        <img src="images/projects/project4.jpg" alt="project4" width="370" height="294">
-        <h3>Проект Prime</h3>
-        <p>Маркетинг</p>
+        <a href=""><img src="images/projects/project4.jpg" alt="project4" width="370" height="294"></a>
+        <h3 class="project-title"lang="en">Проект Prime</h3>
+        <p class="project-text">Маркетин</p>
     </li>
-    <img src="images/projects/project5.jpg" alt="project5" width="370" height="294">
-    <h3>Проект Boxes</h3>
-    <p>Приложение</p>
+    <a href=""><img src="images/projects/project5.jpg" alt="project5" width="370" height="294"></a>
+    <h3 class="project-title"lang="en">Проект Boxes</h3>
+    <p class="project-text"></p>
     <li>
-        <img src="images/projects/project6.jpg" alt="project6" width="370" height="294">
-        <h3>Inspiration has no Borders</h3>
-        <p>Веб-сайт</p>
-    </li>
-    <li>
-        <img src="images/projects/project7.jpg" alt="project7" width="370" height="294">
-        <h3>Издание Limited Edition</h3>
-        <p>Дизайн</p>
+       <a href=""><img src="images/projects/project6.jpg" alt="project6" width="370" height="294"></a> 
+        <h3 class="project-title"lang="en">Inspiration has no Borders</h3>
+        <p class="project-">Веб-сайт</p>
     </li>
     <li>
-        <img src="images/projects/project8.jpg" alt="project8" width="370" height="294">
-        <h3>Проект LAB</h3>
-        <p>Маркетинг</p>
+        <a href=""><img src="images/projects/project7.jpg" alt="project7" width="370" height="294"></a>
+        <h3 class="project-title"lang="en">Издание Limited Edition</h3>
+         <p class="project-text">Дизайн</p>
     </li>
     <li>
-        <img src="images/projects/project9.jpg" alt="project9" width="370" height="294">
-        <h3>Growing Business</h3>
-        <p>Приложение</p>
+        <a href=""><img src="images/projects/project8.jpg" alt="project8" width="370" height="294"></a>
+        <h3 class="project-title"lang="en">Проект LAB</h3>
+        <p class="project-text">Маркетинг</p>
+    </li>
+    <li>
+        <a href=""><img src="images/projects/project9.jpg" alt="project9" width="370" height="294"></a>
+        <h3 class="project-title"lang="en">Growing Business</h3>
+        <p class="project-text">Приложение</p>
     </li>
 </ul>
 </section>

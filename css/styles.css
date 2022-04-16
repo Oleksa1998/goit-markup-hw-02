@@ -46,7 +46,7 @@ letter-spacing: 0.03em;
 color: var(--accent-color);
 }
 .header-logo-part {
-  font-family: 'Raleway', sans-serif;
+  font-family: inherit, sans-serif;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
@@ -160,7 +160,7 @@ color: var(--title-color);
   color: var(--accent-color);
   }
   .footer-logo-part {
-  font-family: 'Raleway', sans-serif;
+  font-family: inherit, sans-serif;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;

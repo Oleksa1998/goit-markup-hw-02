@@ -20,7 +20,7 @@ body {
 }
 
 .header-link {
-  font-weight: 500;
+font-weight: bold;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
@@ -53,7 +53,7 @@ letter-spacing: 0.03em;
 color: var(--title-color) ;  
 }
 .contact-link {
-  font-weight: 500;
+  font-weight: bold;
   font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
@@ -71,8 +71,8 @@ letter-spacing: 0.02em;
   background-color:  #2F303A;
  color: var(--header-color)
 }
-.hero-text 
-{font-size: 44px;
+.hero-text {
+font-size: 44px;
 line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
@@ -83,7 +83,7 @@ color:var(--header-color);
 
 
 .hero-btn {
-  font-weight: 700;
+  font-weight: bold;
 font-family:inherit
 font-size: 16px;
 line-height: 1.87;
@@ -100,7 +100,7 @@ background-color: var(--btn-color)
 }
 
 .features-title {
-font-weight: 700;
+
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
@@ -115,7 +115,6 @@ letter-spacing: 0.03em;
 color: var(--main-content-color);
 }
 .work-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -126,7 +125,6 @@ color: var(--main-content-color);
 background: var(--background-color);
 }  
 .team-title {
-font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
 text-align: center;
@@ -136,7 +134,6 @@ color: var(--title-color);
 
 
 .team-member {
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -190,7 +187,7 @@ color: rgba(255, 255, 255, 0.6);
   } 
   /*------------- Main Portfolio----------------------- */
   .hero-button {
-    font-weight: 500;
+    font-weight: bold;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
@@ -209,8 +206,10 @@ color: rgba(255, 255, 255, 0.6);
   }
   .hero-button:focus 
   
+.portfolio: {
+ color: var(--title-color)
+}
 .project-title {
-font-weight: 700;
 font-size: 18px;
 line-height: 2.0;
 letter-spacing: 0.06em;
